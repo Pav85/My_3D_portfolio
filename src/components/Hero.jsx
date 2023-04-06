@@ -20,7 +20,10 @@ const Hero = () => {
                 I'm dedicated to building engaging and responsive designs that deliver exceptional user experiences.
                 </p>
         </div>
-      </div>
+       </div>
+        
+        <ComputersCanvas />
+      
     </section>
   )
 }
