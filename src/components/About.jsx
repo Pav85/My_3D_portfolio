@@ -1,18 +1,37 @@
 import React from 'react'
-import Tilt  from 'react-tilt';
+// import Tilt  from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+
+
 const About = () => {
   return (
     <>
-     <motion.div>
-      <p>Introduction</p>
-      <h2>Overview. </h2>
+     <motion.div variants={textVariant()}>
+      <p className={styles.sectionSubText}>Introduction</p>
+      <h2 className={styles.sectionHeadText}>Overview. </h2>
      </motion.div>
+
+     <motion.p
+      variants={fadeIn("", "", 0.1, 1)}
+      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+     >
+      An ex-restaurant manager transitioning into a front-end web developer role after completing the edX Skills Front-End Development Bootcamp. 
+      More than 10 years of experience working in small teams and over 2 years of experience managing teams of 15-20 people. From the first Hello, World!” 
+      I knew coding was the thing I was looking for.  A team-oriented developer with hands-on experience, 
+      I am currently seeking to contribute to an innovative team that promotes advancement opportunities for a result-driven developer.
+
+     </motion.p>
+
+     <div className='mt-20 flex flex-wrap gap-10'>
+       {services.map((service, index) => (
+        <ServiceCard key={service.title} index={index} {...service} />
+       ))}
+     </div>
     </>
   )
 }
