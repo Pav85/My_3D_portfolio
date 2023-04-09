@@ -6,7 +6,11 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-
+const ServiceCard = ({index, title, icon}) => {
+  return (
+    <p>{title}</p>
+  )
+}
 
 const About = () => {
   return (
