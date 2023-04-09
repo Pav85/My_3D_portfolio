@@ -1,5 +1,5 @@
 import React from 'react'
-// import Tilt  from 'react-tilt';
+import Tilt  from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard = ({index, title, icon}) => {
   return (
-    <p>{title}</p>
+    <Tilt>{title}</Tilt>
   )
 }
 
