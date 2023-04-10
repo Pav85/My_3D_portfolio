@@ -6,8 +6,11 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ServiceCard = ({index, title, icon}) => {
+const ServiceCard = (
+  {index, title, icon}
+  ) => {
   return (
+    // <p>{title}</p>
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
@@ -15,12 +18,18 @@ const ServiceCard = ({index, title, icon}) => {
       >
         <div
         options={{
-          max:45,
+          max: 45,
           scale: 1,
           speed: 450
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 '
-        ></div>
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        >
+         <img 
+          src={icon} 
+          alt={title}
+          className='w-16 h-16 object-contain' 
+          />
+        </div>
       </motion.div>
     </Tilt>
   )
