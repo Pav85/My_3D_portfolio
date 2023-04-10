@@ -10,7 +10,7 @@ const Ball = (props) => {
   const [Decal] = useTexture([props.imgUrl])
 
   return (
-    <Float>
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2} >
       <ambientLight intensity={0.25} />
     </Float>
   )
