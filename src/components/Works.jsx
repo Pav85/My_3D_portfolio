@@ -26,6 +26,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             />
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              {/* can add another div for a link to deployment */}
              <div
              onClick={() => window.open
             (source_code_link, "_blank")}
@@ -34,7 +35,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               <img
               src={github}
               alt="github"
-              className="w-1/2 h-1/2 object-contain"
+              className="w-8 h-8 object-contain"
               />
              </div>
             </div>
