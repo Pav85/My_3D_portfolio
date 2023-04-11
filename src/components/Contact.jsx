@@ -24,7 +24,26 @@ const Contact = () => {
     const { name, value} = e.target;
     setForm({...form, [name]: value});
   };
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_zica5a7', 
+      'template_dfmdope' 
+      {
+        from_name: form.name,
+        to_name: "Pawel",
+        from_email: form.email,
+        to_email: "pawel.werbowy@gmail.com",
+        message: form.message,
+      },
+      'Ph_Pie4ybYRP89U4z'
+      )
+      .then(() => {
+        
+      })
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
