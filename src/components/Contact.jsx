@@ -30,7 +30,7 @@ const Contact = () => {
 
     emailjs.send(
       'service_zica5a7', 
-      'template_dfmdope' 
+      'template_dfmdope',
       {
         from_name: form.name,
         to_name: "Pawel",
@@ -41,7 +41,18 @@ const Contact = () => {
       'Ph_Pie4ybYRP89U4z'
       )
       .then(() => {
-        
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible");
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false);
+        console.log(error);
+        alert("Something went wrong")
       })
   };
 
