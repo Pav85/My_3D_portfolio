@@ -52,22 +52,24 @@ const Contact = () => {
           name="email"
           value={form.email}
           onChange={handleChange}
-          placeholder="What's your name?"
+          placeholder="What's your email?"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline border-none font-medium"
           />
         </label>
 
         <label className="flex flex-col">
-          <span className="text-white font-medium mb-4">Your Name</span>
-          <input 
-          type="text"
-          name="name"
-          value={form.name}
+          <span className="text-white font-medium mb-4">Your Message</span>
+          <textarea
+          rows="7" 
+          name="message"
+          value={form.message}
           onChange={handleChange}
-          placeholder="What's your name?"
+          placeholder="What do you want to say?"
           className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline border-none font-medium"
           />
         </label>
+
+        <button></button>
        </form>
       </motion.div>
     </div>
