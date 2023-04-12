@@ -30,7 +30,7 @@ const ServiceCard = (
           alt={title}
           className='w-16 h-16 object-contain' 
           />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <h3 className='text-white text-[24px] font-bold text-center'>{title}</h3>
         </div>
       </motion.div>
     </Tilt>
@@ -47,7 +47,7 @@ const About = () => {
 
      <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
+      className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'  
      >
       An ex-restaurant manager transitioning into a front-end web developer role after completing the edX Skills Front-End Development Bootcamp. 
       More than 10 years of experience working in small teams and over 2 years of experience managing teams of 15-20 people. From the first Hello, World!” 
@@ -56,7 +56,8 @@ const About = () => {
 
      </motion.p>
 
-     <div className='mt-20 flex flex-wrap gap-10'>
+     <div className='mt-20 flex flex-wrap gap-10 justify-center'>
+     {/* <div className='mt-20 flex justify-end gap-10'> */}
        {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
        ))}

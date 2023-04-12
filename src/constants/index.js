@@ -50,13 +50,13 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Developer",
+    title: "Front-End Developer",
     icon: backend,
   },
-  {
-    title: "Developer",
-    icon: creator,
-  },
+  // {
+  //   title: "Developer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
