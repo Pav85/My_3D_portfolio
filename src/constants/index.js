@@ -16,7 +16,7 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
+  question_mark,
   tesla,
   shopify,
   carrent,
@@ -96,11 +96,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Junior Developer",
+    company_name: "It can be your company name here",
+    icon: question_mark,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "near future",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
