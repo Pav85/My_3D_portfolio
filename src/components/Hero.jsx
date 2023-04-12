@@ -14,7 +14,7 @@ const Hero = () => {
         
         <div>
           <h1 className={`${styles.heroHeadText} text-white mt-8`}>Hi, I'm <span className="text-[#915eff]">Pawel</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-3 text-white-100 text-justify`}>
                 a front-end developer with a passion for creating beautiful and user-friendly websites. 
                 With a solid understanding of HTML, CSS, and JavaScript,
                 I'm dedicated to building engaging and responsive designs that deliver exceptional user experiences.
