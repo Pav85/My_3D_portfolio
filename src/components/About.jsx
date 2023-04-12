@@ -47,7 +47,7 @@ const About = () => {
 
      <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
      >
       An ex-restaurant manager transitioning into a front-end web developer role after completing the edX Skills Front-End Development Bootcamp. 
       More than 10 years of experience working in small teams and over 2 years of experience managing teams of 15-20 people. From the first Hello, World!” 
