@@ -3,14 +3,14 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
 import { motion } from 'framer-motion';
-import { textVariant } from '../utils/motion';
+import { zoomIn } from '../utils/motion';
 
 import { styles } from '../styles';
 
 const Tech = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div variants={zoomIn()}>
       <p className={styles.sectionSubText}>What I have learned so far</p>
       <h2 className={styles.sectionHeadText}>Technologies. </h2>
      </motion.div>
