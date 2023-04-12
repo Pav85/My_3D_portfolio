@@ -1,7 +1,7 @@
 import logo from "./pawelLogo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import front_end_developer from "./front_end_developer.png";
+import javascript_developer from "./javascript_developer.png";
+import react_developer from "./react_developer.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -32,9 +32,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  front_end_developer,
+  javascript_developer,
+  react_developer,
   web,
   github,
   menu,
