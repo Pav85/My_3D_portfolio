@@ -110,10 +110,13 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Fundamentals of HTML, CSS, and JavaScript.",
+      "Building and deploying web applications.",
+      "Project-based learning with hands-on coding projects.",
+      "Collaboration and teamwork skills.",
+      "Industry-relevant tools and technologies used in front-end development.",
+      "Front-end libraries and frameworks, such as React.",
+      "Responsive web design principles and techniques.",
     ],
   },
   {
@@ -136,10 +139,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2016 - Aug 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Informally recognized as a lead server with responsibilities of performing additional tasks to keep dining room running smoothly, opening / closing and coaching and mentoring new servers",
+      "Providing friendly, welcoming, and personalized service to guests, ensuring their needs are met and exceeded..",
+      "Using persuasive sales techniques to promote specials, upsell menu items, and increase revenue for the restaurant.",
+      "Ability to multitask, prioritize tasks, and work efficiently in a fast-paced environment to ensure timely and smooth service.",
     ],
   },
 ];
