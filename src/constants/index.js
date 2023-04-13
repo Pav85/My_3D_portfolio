@@ -20,6 +20,7 @@ import {
   readme,
   teamprofile,
   quizgame,
+  weatherdashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -276,26 +277,30 @@ const projects = [
     deployment_url: "https://pav85.github.io/my-README-generator/",
   },
   {
-    name: "README Generator",
+    name: "Weather Dashboard",
     description:
-      "Project designed to help create a professional README file for all repositories.",
+      "Weather Dashboard that displays weather information of city searched by user.",
     tags: [
       {
-        name: "nodejs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "markdown",
+        name: "html",
         color: "pink-text-gradient",
       },
+      {
+        name: "css",
+        color: "orange-text-gradient",
+      },
     ],
-    image: readme,
-    source_code_link: "https://github.com/Pav85/quiz-game",
-    deployment_url: "https://pav85.github.io/quiz-game/",
+    image: weatherdashboard,
+    source_code_link: "https://github.com/Pav85/weather-dashboard",
+    deployment_url: "https://pav85.github.io/weather-dashboard/",
   },
 ];
 
