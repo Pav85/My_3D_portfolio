@@ -230,6 +230,71 @@ const projects = [
     source_code_link: "https://github.com/Pav85/my-README-generator",
     deployment_url: "https://pav85.github.io/my-README-generator/",
   },
+  {
+    name: "Team Profile Generator",
+    description: "Project designed to create a team profile using Node.js.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "markdown",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: readme,
+    source_code_link: "https://github.com/Pav85/my-team-profile-generator",
+    deployment_url: "https://pav85.github.io/my-README-generator/",
+  },
+  {
+    name: "Quiz Game",
+    description:
+      "Project designed to help create a professional README file for all repositories.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "markdown",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: readme,
+    source_code_link: "https://github.com/Pav85/my-README-generator",
+    deployment_url: "https://pav85.github.io/my-README-generator/",
+  },
+  {
+    name: "README Generator",
+    description:
+      "Project designed to help create a professional README file for all repositories.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "markdown",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: readme,
+    source_code_link: "https://github.com/Pav85/my-README-generator",
+    deployment_url: "https://pav85.github.io/my-README-generator/",
+  },
 ];
 
 export { services, technologies, experiences, projects };
