@@ -22,8 +22,8 @@ import question_mark from "./company/question_mark.png";
 import edx from "./company/edx-logo-registered-elm.png";
 
 import makeupjunkie from "./screencapturejunkie.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cityguide from "./screencapture-city-guide.png";
+import readme from "./readme.png";
 
 export {
   logo,
@@ -47,6 +47,6 @@ export {
   question_mark,
   edx,
   makeupjunkie,
-  jobit,
-  tripguide,
+  cityguide,
+  readme,
 };

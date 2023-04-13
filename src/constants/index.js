@@ -15,9 +15,9 @@ import {
   edx,
   goodman,
   makeupjunkie,
-  jobit,
-  tripguide,
+  cityguide,
   threejs,
+  readme,
 } from "../assets";
 
 export const navLinks = [
@@ -175,50 +175,60 @@ const projects = [
       },
     ],
     image: makeupjunkie,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/OlgaFelczak/eComReactApp",
     deployment_url: "https://ecom-react-app-makeup-junkie.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "City Guide",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web page that allows user to search for any city and as a result receive information useful for traveling.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "api",
+        color: "orange-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cityguide,
+    source_code_link: "https://github.com/Pav85/city-guide",
+    deployment_url: "https://pav85.github.io/city-guide/",
+  },
+  {
+    name: "README Generator",
+    description:
+      "Project designed to help create a professional README file for all repositories.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "markdown",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: readme,
+    source_code_link: "https://github.com/Pav85/my-README-generator",
+    deployment_url: "https://pav85.github.io/my-README-generator/",
   },
 ];
 

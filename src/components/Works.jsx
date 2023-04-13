@@ -54,7 +54,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             ))}
           </div>
 
-          <div class="flex justify-center">
+          <div className="flex justify-center">
             <button 
             className="mt-3 py-3 px-8 mt-4 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl"
             onClick={() => window.open
