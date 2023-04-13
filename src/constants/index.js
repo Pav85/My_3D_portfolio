@@ -19,6 +19,7 @@ import {
   threejs,
   readme,
   teamprofile,
+  quizgame,
 } from "../assets";
 
 export const navLinks = [
@@ -255,22 +256,22 @@ const projects = [
   {
     name: "Quiz Game",
     description:
-      "Project designed to help create a professional README file for all repositories.",
+      "Time coding quiz with multiple-choice questions about JavaScript.",
     tags: [
       {
-        name: "nodejs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "markdown",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: readme,
+    image: quizgame,
     source_code_link: "https://github.com/Pav85/my-README-generator",
     deployment_url: "https://pav85.github.io/my-README-generator/",
   },
@@ -293,8 +294,8 @@ const projects = [
       },
     ],
     image: readme,
-    source_code_link: "https://github.com/Pav85/my-README-generator",
-    deployment_url: "https://pav85.github.io/my-README-generator/",
+    source_code_link: "https://github.com/Pav85/quiz-game",
+    deployment_url: "https://pav85.github.io/quiz-game/",
   },
 ];
 

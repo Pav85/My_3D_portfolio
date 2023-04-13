@@ -25,6 +25,7 @@ import makeupjunkie from "./screencapturejunkie.png";
 import cityguide from "./screencapture-city-guide.png";
 import readme from "./readme.png";
 import teamprofile from "./team-profile-generator.png";
+import quizgame from "./quiz-game.png";
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   cityguide,
   readme,
   teamprofile,
+  quizgame,
 };
