@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, deployment_url }) => {
     return (
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
@@ -26,7 +26,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             />
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-              {/* can add another div for a link to deployment */}
+            
              <div
              onClick={() => window.open
             (source_code_link, "_blank")}
@@ -55,7 +55,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
 
           <div class="flex justify-center">
-            <button class="mt-3 py-3 px-8 mt-4 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl">Visit page</button>
+            <button 
+            className="mt-3 py-3 px-8 mt-4 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl"
+            onClick={() => window.open
+              (deployment_url, "_blank")}
+            >Visit page
+            </button>
           </div>
         </Tilt>
       </motion.div>

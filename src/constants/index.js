@@ -176,6 +176,7 @@ const projects = [
     ],
     image: makeupjunkie,
     source_code_link: "https://github.com/",
+    deployment_url: "https://ecom-react-app-makeup-junkie.netlify.app/",
   },
   {
     name: "Job IT",
