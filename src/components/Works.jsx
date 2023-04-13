@@ -43,7 +43,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px] text-center">{name}</h3>
-            <p className="mt-2 text-secondary text-[16px] text-justify min-h-[120px]">{description}</p>
+            <p className="mt-2 text-secondary text-[16px] text-justify min-h-[90px]">{description}</p>
           </div>
 
           <div className="mt-2 flex flex-wrap gap-2">
