@@ -24,6 +24,7 @@ import edx from "./company/edx-logo-registered-elm.png";
 import makeupjunkie from "./screencapturejunkie.png";
 import cityguide from "./screencapture-city-guide.png";
 import readme from "./readme.png";
+import teamprofile from "./team-profile-generator.png";
 
 export {
   logo,
@@ -49,4 +50,5 @@ export {
   makeupjunkie,
   cityguide,
   readme,
+  teamprofile,
 };

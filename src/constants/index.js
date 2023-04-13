@@ -18,6 +18,7 @@ import {
   cityguide,
   threejs,
   readme,
+  teamprofile,
 } from "../assets";
 
 export const navLinks = [
@@ -243,13 +244,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "markdown",
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    image: readme,
+    image: teamprofile,
     source_code_link: "https://github.com/Pav85/my-team-profile-generator",
-    deployment_url: "https://pav85.github.io/my-README-generator/",
+    deployment_url: "https://pav85.github.io/my-team-profile-generator/",
   },
   {
     name: "Quiz Game",
