@@ -16,7 +16,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[520px]"
         >
           <div className="relative w-full h-[230px]">
             <img 
@@ -53,6 +53,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               </p>
             ))}
           </div>
+
+          <div class="flex justify-center">
+            <button class="mt-3 py-3 px-8 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl">Visit page</button>
+          </div>
         </Tilt>
       </motion.div>
     )
@@ -79,7 +83,8 @@ const Works = () => {
       </motion.p>
     </div>
 
-    <div className="mt-20 flex flex-wrap gap-7">
+    {/* <div className="mt-20 flex flex-wrap gap-6"> */}
+    <div className="mt-20 flex flex-wrap gap-6">
       {projects.map((project, index) => (
         <ProjectCard 
         key={`project-${index}`}

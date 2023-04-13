@@ -14,7 +14,7 @@ import {
   question_mark,
   edx,
   goodman,
-  carrent,
+  makeupjunkie,
   jobit,
   tripguide,
   threejs,
@@ -147,53 +147,34 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Make-up Junkie",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Make-up Junkie is a responsive e-commerce website of make-up products where the user can see and buy products.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "api",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "yarn",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "vite.js",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: makeupjunkie,
     source_code_link: "https://github.com/",
   },
   {
@@ -240,4 +221,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

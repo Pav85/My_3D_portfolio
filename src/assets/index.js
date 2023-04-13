@@ -21,7 +21,7 @@ import goodman from "./company/goodman.png";
 import question_mark from "./company/question_mark.png";
 import edx from "./company/edx-logo-registered-elm.png";
 
-import carrent from "./carrent.png";
+import makeupjunkie from "./screencapturejunkie.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -46,7 +46,7 @@ export {
   goodman,
   question_mark,
   edx,
-  carrent,
+  makeupjunkie,
   jobit,
   tripguide,
 };
