@@ -57,14 +57,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           <div class="flex justify-center">
             <button class="mt-3 py-3 px-8 mt-4 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl">Visit page</button>
           </div>
-
-          {/* <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map((tag) => (
-              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                #{tag.name}
-              </p>
-            ))}
-          </div> */}
         </Tilt>
       </motion.div>
     )
