@@ -16,7 +16,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[560px]"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[520px]"
         >
           <div className="relative w-full h-[230px]">
             <img 
@@ -43,10 +43,10 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px] text-center">{name}</h3>
-            <p className="mt-2 text-secondary text-[16px] text-justify min-h-[140px]">{description}</p>
+            <p className="mt-2 text-secondary text-[16px] text-justify min-h-[120px]">{description}</p>
           </div>
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-2 flex flex-wrap gap-2">
             {tags.map((tag) => (
               <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                 #{tag.name}
@@ -55,8 +55,16 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           </div>
 
           <div class="flex justify-center">
-            <button class="mt-3 py-3 px-8 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl">Visit page</button>
+            <button class="mt-3 py-3 px-8 mt-4 outline-none w-fit bg-[#915eff] text-white font-bold shadow-md shadow-primary rounded-xl">Visit page</button>
           </div>
+
+          {/* <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div> */}
         </Tilt>
       </motion.div>
     )
