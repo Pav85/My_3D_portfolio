@@ -21,6 +21,7 @@ import {
   teamprofile,
   quizgame,
   weatherdashboard,
+  robofriends,
 } from "../assets";
 
 export const navLinks = [
@@ -210,6 +211,36 @@ const projects = [
     image: cityguide,
     source_code_link: "https://github.com/Pav85/city-guide",
     deployment_url: "https://pav85.github.io/city-guide/",
+  },
+  {
+    name: "Robofriends",
+    description:
+      "Simple application that displays a list of robots and allows user to to filter them using the search bar",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: robofriends,
+    source_code_link: "https://github.com/Pav85/robofriends",
+    deployment_url: "https://pav85.github.io/robofriends/",
   },
   {
     name: "README Generator",

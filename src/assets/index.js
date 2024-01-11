@@ -28,6 +28,7 @@ import readme from "./readme.png";
 import teamprofile from "./team-profile-generator.png";
 import quizgame from "./quiz-game.png";
 import weatherdashboard from "./weather-dashboard.png";
+import robofriends from "./robofriends.png";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   teamprofile,
   quizgame,
   weatherdashboard,
+  robofriends,
 };
