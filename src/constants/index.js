@@ -273,8 +273,8 @@ const projects = [
       },
     ],
     image: quizgame,
-    source_code_link: "https://github.com/Pav85/my-README-generator",
-    deployment_url: "https://pav85.github.io/my-README-generator/",
+    source_code_link: "https://github.com/Pav85/quiz-game",
+    deployment_url: "https://pav85.github.io/quiz-game/",
   },
   {
     name: "Weather Dashboard",
