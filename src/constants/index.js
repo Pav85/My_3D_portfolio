@@ -11,7 +11,7 @@ import {
   nodejs,
   git,
   dishoom,
-  question_mark,
+  silatha,
   edx,
   goodman,
   makeupjunkie,
@@ -94,16 +94,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Junior Developer",
-    company_name: "Place for your company's name",
-    icon: question_mark,
+    title: "React Native Developer Intern",
+    company_name: "Silatha",
+    icon: silatha,
     iconBg: "#383E56",
-    date: "near future",
+    date: "Sep 2023 - Jan 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a crossword puzzle app using React Native, focusing on user-friendly interfaces and seamless functionality.",
+      "Integrated Firebase for backend functions like database management and user authentication.",
+      "Enhanced app performance and user engagement through innovative feature development and optimization.",
+      "Worked in a small, agile team of two, focusing primarily on functionality design, app development, and troubleshooting, ensuring robust performance and user experience.",
     ],
   },
   {

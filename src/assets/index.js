@@ -20,6 +20,7 @@ import dishoom from "./company/dishoom.png";
 import goodman from "./company/goodman.png";
 import question_mark from "./company/question_mark.png";
 import edx from "./company/edx-logo-registered-elm.png";
+import silatha from "./company/silatha.png";
 
 import makeupjunkie from "./screencapturejunkie.png";
 import cityguide from "./screencapture-city-guide.png";
@@ -48,6 +49,7 @@ export {
   dishoom,
   goodman,
   question_mark,
+  silatha,
   edx,
   makeupjunkie,
   cityguide,
