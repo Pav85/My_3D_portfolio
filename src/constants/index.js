@@ -262,12 +262,8 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "html",
+        name: "axios",
         color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: goodadvicecat,
@@ -311,7 +307,7 @@ const projects = [
       },
       {
         name: "css",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: quizgame,
