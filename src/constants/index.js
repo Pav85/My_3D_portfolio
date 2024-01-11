@@ -22,6 +22,8 @@ import {
   quizgame,
   weatherdashboard,
   robofriends,
+  password_generator,
+  goodadvicecat,
 } from "../assets";
 
 export const navLinks = [
@@ -243,6 +245,36 @@ const projects = [
     deployment_url: "https://pav85.github.io/robofriends/",
   },
   {
+    name: "Good Advice Cat",
+    description:
+      "The Good Advice Cat App is a simple, intuitive web application that provides users with random pieces of advice at the click of a button.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: goodadvicecat,
+    source_code_link: "https://github.com/Pav85/good-advice-cat-app",
+    deployment_url: "https://good-advice-cat.netlify.app/",
+  },
+  {
     name: "README Generator",
     description:
       "Project designed to help create a professional README file for all repositories.",
@@ -257,12 +289,34 @@ const projects = [
       },
       {
         name: "markdown",
-        color: "pink-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: readme,
     source_code_link: "https://github.com/Pav85/my-README-generator",
     deployment_url: "https://pav85.github.io/my-README-generator/",
+  },
+  {
+    name: "Quiz Game",
+    description:
+      "Time coding quiz with multiple-choice questions about JavaScript.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: quizgame,
+    source_code_link: "https://github.com/Pav85/quiz-game",
+    deployment_url: "https://pav85.github.io/quiz-game/",
   },
   {
     name: "Team Profile Generator",
@@ -285,28 +339,7 @@ const projects = [
     source_code_link: "https://github.com/Pav85/my-team-profile-generator",
     deployment_url: "https://pav85.github.io/my-team-profile-generator/",
   },
-  {
-    name: "Quiz Game",
-    description:
-      "Time coding quiz with multiple-choice questions about JavaScript.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: quizgame,
-    source_code_link: "https://github.com/Pav85/quiz-game",
-    deployment_url: "https://pav85.github.io/quiz-game/",
-  },
+
   {
     name: "Weather Dashboard",
     description:
@@ -332,6 +365,28 @@ const projects = [
     image: weatherdashboard,
     source_code_link: "https://github.com/Pav85/weather-dashboard",
     deployment_url: "https://pav85.github.io/weather-dashboard/",
+  },
+  {
+    name: "Password Generator",
+    description:
+      "An interactive JavaScript-based tool for generating secure, customizable passwords with options for length and character types.",
+    tags: [
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: password_generator,
+    source_code_link: "https://github.com/Pav85/password-genarator",
+    deployment_url: "https://pav85.github.io/password-genarator/",
   },
 ];
 

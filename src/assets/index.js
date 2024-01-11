@@ -29,6 +29,8 @@ import teamprofile from "./team-profile-generator.png";
 import quizgame from "./quiz-game.png";
 import weatherdashboard from "./weather-dashboard.png";
 import robofriends from "./robofriends.png";
+import password_generator from "./password-generator.png";
+import goodadvicecat from "./good-advice-cat.png";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   quizgame,
   weatherdashboard,
   robofriends,
+  password_generator,
+  goodadvicecat,
 };
